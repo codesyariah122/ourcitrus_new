@@ -1,5 +1,5 @@
 <!-- minimal footer -->	
-<footer class="footer pb-5 pt-4" style="background-color:#fcd5b5;" id="service">
+<footer class="footer pb-5 pt-4" style="background-color:#fcd5b5; margin-top:-1.5em;" id="service">
 <div class="container">
 	<div class="row justify-content-center text-center">
 		<div class="col-md-12">			
@@ -10,7 +10,10 @@
 </div>
 </footer> 
 
+<!--
 <a class="weatherwidget-io" href="https://forecast7.com/en/n7d47112d67/sidoarjo-regency/" data-label_1="SIDOARJO" data-label_2="WEATHER" data-icons="Climacons Animated" data-mode="Current" data-theme="original" >SIDOARJO WEATHER</a>
+-->
+
 <?php $this->view('front-end/layouting/javascript.php');?>
 
 </body>

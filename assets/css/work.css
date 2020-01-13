@@ -35,7 +35,7 @@
 }
 
 .content:hover .content-overlay{
-  opacity: 1;
+  opacity: 0;
 }
 
 .content-image{
@@ -61,7 +61,7 @@
 .content:hover .content-details{
   top: 50%;
   left: 50%;
-  opacity: 1;
+  opacity: 0;
 }
 
 .content-details h3{

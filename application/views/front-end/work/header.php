@@ -24,13 +24,18 @@ untuk framework pakai bootstrap versi 4.1
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css">
 <!-- CSS -->
 <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet"/>
 <link href="<?=base_url()?>assets/css/vendor/aos.css" rel="stylesheet"/>
-
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/hover_img/component.css" />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Julius+Sans+One|Montserrat+Alternates|Neucha|Poiret+One&display=swap" rel="stylesheet">
 <?php $this->view('front-end/layouting/style.php');?>
+
 <style type="text/css">
+html {
+  scroll-behavior: smooth;
+}
    @font-face {
          font-family: "Vacaciones";
          src: url('<?=$font_header;?>');
@@ -40,21 +45,43 @@ untuk framework pakai bootstrap versi 4.1
    .navbar-brand {
          font-family: "Vacaciones";
     }
+	.header-slogan {
+		font-family: 'Indie Flower', cursive;
+	}
+	.page-header {
+		font-family: 'Poiret One', cursive;
+	}
+	.produk-header{
+		font-family: 'Julius Sans One', sans-serif;
+	}
+	.produk-slogan{
+		font-family: 'Neucha', cursive;
+	}
+	
+	.jumbotron{
+		background-attachment: fixed;
+		background-size:cover;
+		background-position:0 -100px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	
 </style>
 
 </head>
     
 <body> 
+
 <? $this->view('front-end/work/navbar.php'); ?>
-<!-- simple header -->
-<div class="jumbotron gradient2 jumbotron-lg jumbotron-fluid jumbotron-lg-withnav mb-3 position-relative">
-	<div class="container text-white h-100 tofront">
-		<div class="row align-items-center justify-content-center text-center">
-			<div class="col-md-10">
-				<?php if($uri == '/Product/Nutrisi'):?>
-				<h1 class="display-3">Produk <?=$headernutrisi;?></h1>
-				<?php endif;?>
-			</div>
-		</div>
-	</div>
-</div>
+
+<? $this->view('front-end/work/jumbotron.php');?>
+
+<div class="parallax">
+
+
+
+
+
+
+

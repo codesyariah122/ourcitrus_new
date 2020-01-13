@@ -1,101 +1,29 @@
-<div class="row">
 
-<div class="col-md-4 mb-2">
-  <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD1.png">
-      <div class="content-details fadeIn-top">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
-</div>
-  
-  <div class="col-md-4 mb-2">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD2.png">
-      <div class="content-details fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
-  </div>
-  
-  <div class="col-md-4 mb-2">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD3.png">
-      <div class="content-details fadeIn-left">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
- </div>
- 
- </div><!-- row -->
- 
- <div class="row"> 
-  <div class="col-md-4 mb-2">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD4.png">
-      <div class="content-details fadeIn-bottom">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
- </div>
-  
- <div class="col-md-4 mb-2">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD5.png">
-      <div class="content-details fadeIn-left">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
- </div>
-  
-  <div class="col-md-4 mb-2">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD6.png">
-      <div class="content-details fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
- </div>
-</div><br/>
- 
-<div class="row">
- <div class="col-md-4">
-    <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="<?=base_url()?>assets/img/product/new_product/PROD7.png">
-      <div class="content-details fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
-  </div>
- </div>
-</div>
-  
 
-<br/>
+<div class="container-fluid" id="<?=$nutrisi_page?>">
+<br/><br/>
+<div class="row">
+<?php for($i=0; $i<=count($produk_nutrisi)-1; $i++): ?>
+<div class="col-lg-4 pr-0 pl-0">
+		<div class="single_portfolio_text mb-2 mr-2">
+			<img src="<?=base_url()?>assets/img/product/new_product/<?=$produk_nutrisi[$i]?>" alt="" data-aos="fade-up"/>
+				<div class="portfolio_images_overlay text-center">
+					<h6 class="clrd-font"><?=$title_nutrisi[$i]?></h6>
+					<p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i></p>
+				<a class="btn btn-primary text-white" data-toggle="modal" data-target=".bd-<?=$modal_nutrisi[$i]?>-modal-lg">Click here</a>
+			</div>
+		</div>
+		
+</div>
+<?php endfor;?>
+
+</div>
+</section>
+
+<section id="office" class="text-center">
+<div class="row">
+<?php $this->view('front-end/work/product/nutrisi/modal_nutrisi.php');?>
+</div>
+</div>
+
+</div><!-- end parallax -->

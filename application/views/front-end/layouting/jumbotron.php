@@ -10,16 +10,17 @@
 		<div class="carousel-inner shadow-sm rounded">
 		    <?php foreach($data_img as $img => $key):?>
 			<div class="carousel-item <?php if($img == '1'): echo 'active'; endif;?>">
-				<img class="d-block w-100" src="<?=$img_url?>assets/img/product/new/<?=$key;?>.png" 
-				alt="<?php switch($img){case '1': echo 'First slide'; break; case '2': echo 'Second Slide'; break; case '3': echo 'Third Slide'; break; }?>">
+				<img class="d-block w-100" src="<?=$img_url?>assets/img/product/new/<?=$key;?>.png" alt="<?php switch($img){case '1': echo 'First slide'; break; case '2': echo 'Second Slide'; break; case '3': echo 'Third Slide'; break; }?>">
 			</div><!-- carousel item -->
 			<?php endforeach;?>
 	    </div>
 </div>
-<!-- button after image -->
-<div class="after-image">
-				<a href="https://admin.ourcitrus.id/EmailService" data-aos="fade-top" class="btn btn-light btn-hover">Email Service</a>
+<div class="container-fluid">
+<div class="col-sm-12 text-center"> 
+<a class="btn btn-danger" href="https://admin.ourcitrus.id" style="margin-top:-1.5em;">Email Service</a>
 </div>
+</div>
+<!-- button after image -->
 </section>
 
 

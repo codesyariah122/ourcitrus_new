@@ -29,9 +29,13 @@ untuk framework pakai bootstrap versi 4.1
 <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet"/>
 <link href="<?=base_url()?>assets/css/vendor/aos.css" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/hover_img/component.css" />
+
 <?php $this->view('front-end/layouting/style.php');?>
 
 <style type="text/css">
+html {
+  scroll-behavior: smooth;
+}
    @font-face {
          font-family: "Vacaciones";
          src: url('<?=$font_header;?>');
