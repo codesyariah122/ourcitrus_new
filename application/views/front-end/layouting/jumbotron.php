@@ -17,7 +17,7 @@
 </div>
 <div class="container-fluid">
 <div class="col-sm-12 text-center"> 
-<a class="btn btn-danger" href="https://admin.ourcitrus.id" style="margin-top:-1.5em;">Email Service</a>
+<!-- <a class="btn btn-danger" href="https://admin.ourcitrus.id" style="margin-top:-1.5em;">Email Service</a> -->
 </div>
 </div>
 <!-- button after image -->

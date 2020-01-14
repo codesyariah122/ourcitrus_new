@@ -1,6 +1,4 @@
-
-
-<div class="container-fluid" id="<?=$nutrisi_page?>">
+<section id="<?=$nutrisi_page?>" class="container-fluid" >
 <br/><br/>
 <div class="row">
 <?php for($i=0; $i<=count($produk_nutrisi)-1; $i++): ?>
@@ -23,7 +21,6 @@
 <section id="office" class="text-center">
 <div class="row">
 <?php $this->view('front-end/work/product/nutrisi/modal_nutrisi.php');?>
-</div>
 </div>
 
 </div><!-- end parallax -->

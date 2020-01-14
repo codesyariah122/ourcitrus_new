@@ -9,7 +9,8 @@ class CustService extends CI_Controller {
 						'0' => 'cs',
 						];	
 		
-
+		$data['smooth_page'] = 'cs';								
+		$data['cs_page'] = 'cs';
 		$data['header_title'] = 'Customer Service';
 		$data['title']="Customer Service";
 		$data['img_url'] = base_url();

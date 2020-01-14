@@ -1,6 +1,6 @@
 <main>
 <!-- suport system -->
-<section id="office">
+<section id="office" data-aos="fade-up">
 		<!-- d-flex intisari nu badag -->
 		<div class="d-flex justify-content-end support-system">
 			

@@ -33,7 +33,7 @@
         <a class="nav-link page-scroll" href="<?=base_url()?>#work">Work</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="">Service</a>
+        <a class="nav-link page-scroll" href="https://admin.ourcitrus.id">Service</a>
       </li>
     </ul>
   </div>
@@ -44,7 +44,7 @@
         <a class="tombol btn btn-block btn-round" target="_blank" href="https://login.ourcitrus.id">Login</a>
       </li>
       <li class="nav-item ml-2">
-	     <a class="tombol btn btn-block btn-round" target="_blank" href="https://admin.ourcitrus.id">Email Service</a>
+
       </li>
     </ul>
   </div><br/><br/>

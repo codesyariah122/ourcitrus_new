@@ -11,10 +11,6 @@ class Home extends CI_Controller {
     public function index()
     {
 		
-		//require_once 'Modal.php';
-		require_once 'News.php';
-		$data['news'] = new News;
-		
 		/* assets untuk header data */
 		 $data['data_img'] = [
 								'1' => 'WEB 2020 1_1',
@@ -34,7 +30,7 @@ class Home extends CI_Controller {
 		$data['img_table'] = ['1.png','2.png','3.png','4.png','5.png','6.png'];
 		$data['link_img'] = ['Product/Nutrisi','Info','HallOfFame','Kantor','SocialMedia','CustService'];
 		/* end header data */
-		
+
         $data['title']="OURCITRUS";
         $data['headertitle']="OURCITRUS";
 		$data['img_url'] = base_url();
@@ -47,15 +43,16 @@ class Home extends CI_Controller {
 		
 		$data['link_page'] = [		'InfoTerbaru',
 									'HallOfFame',
-									'Kantor',
+									'Office',
 									'SocialMedia',
 									'CustService'
 							];
 							
 		$data['link_title'] = ['Halaman Produk', 'Info Terbaru', 'Hall Of Fame', 'Kantor', 'Social Media', 'Customer Service' ];
-									
+											
         $this->load->view('front-end/layouting/header.php', $data);  
         $this->load->view('front-end/main.php', $data);
+		$this->load->view('front-end/modal_home.php');
 		$this->load->view('front-end/chat.php');
 		$this->load->view('front-end/whatsapp.php');
         $this->load->view('front-end/layouting/footer.php');

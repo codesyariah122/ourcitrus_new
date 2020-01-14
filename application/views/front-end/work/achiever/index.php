@@ -22,9 +22,10 @@
 	</p>
 </div>
 jumbotron with background image -->
-<br/><br/><br/>
-<div class="container mt-4">
+
 <section id="<?=$smooth_page?>">
+
+<div class="container mt-4">
 <?php foreach($halloffame as $img => $key):?>
 
   <div class="row">
@@ -33,7 +34,7 @@ jumbotron with background image -->
     </a>
   </div>
   <?php endforeach;?>
+</div>
 
 </section>
-</div>
 

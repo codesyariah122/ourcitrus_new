@@ -8,3 +8,5 @@
 [08-Jan-2020 07:28:24 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes) in /home/ourcitru/public_html/application/views/front-end/main.php on line 58
 [13-Jan-2020 04:25:38 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/ourcitru/public_html/application/controllers/Home.php on line 10
 [13-Jan-2020 05:41:47 UTC] PHP Warning:  Unterminated comment starting line 16 in /home/ourcitru/public_html/application/controllers/Home.php on line 16
+[13-Jan-2020 14:39:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'Modal.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/views/front-end/main.php on line 2
+[13-Jan-2020 14:39:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'Modal.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/views/front-end/main.php on line 2

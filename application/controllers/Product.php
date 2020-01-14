@@ -18,7 +18,7 @@ class Product extends CI_Controller {
 					<footer class="font-weight-bold text-primary blockquote-footer">POM NO: MD 867013058071</footer>
 					<small>
 					1 Box @10 sachet @20 gram<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000<br/>
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000<br/>
 					</small>
 					</blockquote>
 					<h4 class="display-5">INGREDIENTS:</h4>
@@ -43,7 +43,7 @@ class Product extends CI_Controller {
 
 					<small>
 					1 Box @10 sachet @20 gram<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000<br/>
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000<br/>
 					</small>
 					
 					</blockquote>
@@ -66,10 +66,10 @@ class Product extends CI_Controller {
 					
 					<blockquote class="blockquote">
 					<p class="mb-0">Minuman Serbuk Rasa PISANG MANIS</p>
-					<footer class="font-weight-bold text-primary blockquote-footer">DINKES PIRT NO: 5133515700746 â€“ 23</footer>
+					<footer class="font-weight-bold text-primary blockquote-footer">DINKES PIRT NO: 5133515700746 – 23</footer>
 					<small>
 					1 Box @10 sachet @20 gram<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000
 					</small></blockquote>
 					
 					<h4 class="display-5">INGREDIENTS: </h4>
@@ -94,7 +94,7 @@ class Product extends CI_Controller {
 					
 					<small>
 					1 Box @10 sachet @20 gram<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000
 					</small>
 					
 					</blockquote>
@@ -122,7 +122,7 @@ class Product extends CI_Controller {
 					<footer class="font-weight-bold text-primary blockquote-footer">POM NO. MD 867013185071</footer>
 					<small>
 					1 Box @10 sachet @20 gram<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000<br/>
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000<br/>
 					</small>
 					<blockquote>
 
@@ -145,7 +145,7 @@ class Product extends CI_Controller {
 					<footer class="font-weight-bold text-primary blockquote-footer">DINKES P-IRT NO. 5133515900746-24 </footer>
 					<small>
 					1 Box @12 sachet @20 gram<br/>
-					HARGA NON-MEMBER 456,000 â€“ MEMBER 380,000<br/>
+					HARGA NON-MEMBER 456,000 – MEMBER 380,000<br/>
 					</small>
 					</blockquote>
 
@@ -168,7 +168,7 @@ class Product extends CI_Controller {
 					<footer class="font-weight-bold text-primary blockquote-footer">DINKES P-IRT NO. 8093515910746-24</footer>
 					<small>
 					1 Box @3 BOTOL @10 ML<br/>
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000<br/>
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000<br/>
 					</small></blockquote>
 
 					<h4 class="display-5">INGREDIENTS:</h4>
@@ -187,7 +187,7 @@ class Product extends CI_Controller {
 								'2' => 'WEB 2020 A', 
 								'3' => 'WEB 2020 4A'
 							];
-		$data['smooth_page'] = 'nutrisi';					
+		$data['smooth_page'] = '';
 		$data['nutrisi_page'] = 'nutrisi';
 		$data['nutrisi'] = 'Produk Nutrisi';
 		$data['title']="Product Nutrisi";
@@ -209,13 +209,13 @@ class Product extends CI_Controller {
 		$data['title_kosmetik'] = ['FIXUP Series', 'Lipmate Cantik', 'First Sight', 'Smoth & Shine', 'Bea Ultimate', 'Sweet Escape', 'Aquafire', 'Divinity', 'Bio Essence'];
 		$data['modal_kosmetik'] = ['fixup', 'cantik', 'firstsight', 'smothshine', 'beaultimate','sweetescape','aquafire','divinity','bioessence'];
 	
-		$data['fixup'] = '<h2 class="display-5">FIXUP SERIES</h2>
+		$data['fixup'] = '<h4 class="display-4">FIXUP SERIES</h4>
 					<blockquote class="blockquote">
 					<footer class="font-weight-bold text-primary blockquote-footer">Whitening Body Series</footer>
-					<small>Day Body Serum â€“ Body Wash â€“ Night Body Serum</small><br/>
-					<b>DAY BODY SERUM:</b> POM NA 18160104069 â€“ 175 ML<br/>
-					<b>BODY WASH : </b> POM NA 18160701459 â€“ 200 ML<br/>
-					<b>NIGHT BODY SERUM: </b> POM NA 18160104068 â€“ 175 ML<br/>
+					<small>Day Body Serum – Body Wash – Night Body Serum</small><br/>
+					<b>DAY BODY SERUM:</b> POM NA 18160104069 – 175 ML<br/>
+					<b>BODY WASH : </b> POM NA 18160701459 – 200 ML<br/>
+					<b>NIGHT BODY SERUM: </b> POM NA 18160104068 – 175 ML<br/>
 					HARGA NON MEMBER IDR 720,000 - MEMBER IDR 600.000
 					</blockquote>
 					
@@ -231,11 +231,11 @@ class Product extends CI_Controller {
 					Aplikasikan keseluruh kulit tubuh secara merata.<br/>
 					</small>';
 	
-		$data['cantik'] = '<h2 class="display-5">NEW CANTIK GLOW LIPMATTE SERIES</h2>
+		$data['cantik'] = '<h4 class="display-4">NEW CANTIK GLOW LIPMATTE SERIES</h4>
 
 					<blockquote class="blockquote">
 					<footer class="font-weight-bold text-primary blockquote-footer">
-						Color: Plum â€“ Nude â€“ Honey â€“ Barbie â€“ Rose<br/>
+						Color: Plum – Nude – Honey – Barbie – Rose<br/>
 					</footer>
 					
 					<small>
@@ -269,7 +269,7 @@ class Product extends CI_Controller {
 					Aplikasikan kuas lipcream ke bibir secara merata.
 					</small>';
 
-		$data['firstsight'] = '<h2 class="display-3">NEW OURCITRUS BEA ULTIMATE FIRST SIGHT LIPCREAM SERIES</h2>
+		$data['firstsight'] = '<h4 class="display-4">NEW OURCITRUS BEA ULTIMATE FIRST SIGHT LIPCREAM SERIES</h4>
 					
 					<blockquote class="blockquote">
 			
@@ -299,7 +299,7 @@ class Product extends CI_Controller {
 					Aplikasikan kuas lipcream ke bibir secara merata.
 					</small>';
 
-		$data['smothshine'] = '<h2 class="display-3">OURCITRUS BEA ULTIMATE HAIR CARE SERIES SMOOTH & SHINE</h2>
+		$data['smothshine'] = '<h4 class="display-4">OURCITRUS BEA ULTIMATE HAIR CARE SERIES SMOOTH & SHINE</h4>
 					<blockquote class="blockquote">
 					<small>Hair Shampoo - Hair Conditioner - Hair Serum</small>
 					<footer class="font-weight-bold text-primary blockquote-footer">POM NO: MD 867013189071</footer>
@@ -308,7 +308,7 @@ class Product extends CI_Controller {
 					CONDITIONER POM NA 18171002282 @250ML<br/>
 					HAIR SERUM POM NA 18171002255 @30ML<br/><br/>
 					
-					HARGA NON-MEMBER 720,000 â€“ MEMBER 600,000<br/>
+					HARGA NON-MEMBER 720,000 – MEMBER 600,000<br/>
 					HARGA SHAMPOO NON MEMBER IDR 120,000 - MEMBER IDR 100,000<br/>
 					HARGA CONDITIONER NON MEMBER IDR 180,000 - MEMBER IDR 150,000<br/>
 					HARGA HAIR SERUM NON MEMBER IDR 120,000 - MEMBER IDR 100,000<br/>
@@ -332,7 +332,7 @@ class Product extends CI_Controller {
 					Usap rambut dengan handuk sampai setengah kering. Dan aplikasikan Serum rambut. mulai dari   tengah hingga ke ujung rambut. sambil menyisirnya dengan tangan agar rambut ternutrisi. dan menjadi rambut menjadi<br/> lebih lembut. biarkan mengering secara alami.<br/>
 					</small';
 					
-		$data['beaultimate'] = '<h2 class="display-3">OURCITRUS BEA ULTIMATE BODY TREATMENT</h2>
+		$data['beaultimate'] = '<h4 class="display-4">OURCITRUS BEA ULTIMATE BODY TREATMENT</h4>
 					<blockquote class="blockquote">
 					<small>Body Scrub- Body Wash - Body Serum</small>
 					<footer class="font-weight-bold text-primary blockquote-footer">POM NO: MD 867013189071</footer>
@@ -362,12 +362,12 @@ class Product extends CI_Controller {
 					Setelah mandi. usap dan ratakan body serum di seluruh kulit tubuh yang masih segar. Kondisi kulit yang baru dibersihkan, membuat formulanya bisa meresap dan bekerja lebih baik.<br/>
 					</small>';
 					
-		$data['sweetescape'] = '<h2 class="display-3">LADIES EAU DE TOILETTE NATURAL SWEET ESCAPE</h2>
+		$data['sweetescape'] = '<h4 class="display-4">LADIES EAU DE TOILETTE NATURAL SWEET ESCAPE</h4>
 					<blockquote class="blockquote">
 
 					<small>Body Scrub- Body Wash - Body Serum</small>
 
-					<footer class="font-weight-bold text-primary blockquote-footer">POM NA15170601731 â€“ 80 ML.</footer>
+					<footer class="font-weight-bold text-primary blockquote-footer">POM NA15170601731 – 80 ML.</footer>
 
 					HARGA NON MEMBER IDR 720,000 - MEMBER IDR 600,000<br/>
 					
@@ -388,10 +388,10 @@ class Product extends CI_Controller {
 					15 sampai dengan 25 sentimeter agar penyebaran parfum lebih luas dan merata.<br/>
 					</small>';
 		
-		$data['aquafire'] = '<h2 class="display-3">GENTLEMEN EAU DE TOILETTE NATURAL AQUAFIRE</h2>
+		$data['aquafire'] = '<h4 class="display-4">GENTLEMEN EAU DE TOILETTE NATURAL AQUAFIRE</h4>
 					<blockquote class="blockquote">
 
-					<footer class="font-weight-bold text-primary blockquote-footer">POM NO: NA18170601728 â€“ 100 ML</footer>
+					<footer class="font-weight-bold text-primary blockquote-footer">POM NO: NA18170601728 – 100 ML</footer>
 					
 					<small>
 					HARGA NON MEMBER IDR 720,000 - MEMBER IDR 600,000<br/>
@@ -412,10 +412,10 @@ class Product extends CI_Controller {
 					15 sampai dengan 25 sentimeter agar penyebaran parfum lebih luas dan merata.<br/>
 					</small>';
 					
-		$data['divinity'] = '<h2 class="display-3">GENTLEMEN EAU DE TOILETTE NATURAL DIVINITY</h2>
+		$data['divinity'] = '<h4 class="display-4">GENTLEMEN EAU DE TOILETTE NATURAL DIVINITY</h4>
 					<blockquote class="blockquote">
 					
-					<footer class="font-weight-bold text-primary blockquote-footer">POM NA18170601730 â€“ 100 ML.</footer>
+					<footer class="font-weight-bold text-primary blockquote-footer">POM NA18170601730 – 100 ML.</footer>
 					<small>
 					HARGA NON MEMBER IDR 720,000 - MEMBER IDR 600,000<br/>
 					</small>
@@ -433,7 +433,7 @@ class Product extends CI_Controller {
 					terbuka dimana parfum bisa melekat lama di pori-pori. Semprot parfum dari jarak<br/>
 					</small>';
 					
-		$data['bioessence'] = '<h2 class="display-3">OURCITRUS  EXE PROFESSIONAL BIO ESSENCE  DAY AND NIGHT</h2>
+		$data['bioessence'] = '<h4 class="display-4">OURCITRUS  EXE PROFESSIONAL BIO ESSENCE  DAY AND NIGHT</h4>
 					<blockquote class="blockquote">
 
 					<footer class="font-weight-bold text-primary blockquote-footer">
@@ -465,7 +465,8 @@ class Product extends CI_Controller {
 								'2' => 'WEB 2020 A', 
 								'3' => 'WEB 2020 4A'
 							];
-				
+							
+		$data['smooth_page'] = '';
 		$data['kosmetik_page'] = 'kosmetik';					
 		$data['kosmetik'] = 'Produk Kosmetik';
 		$data['title']="Product Kosmetik";

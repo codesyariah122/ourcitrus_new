@@ -9,18 +9,21 @@ class SocialMedia extends CI_Controller {
 								'0' => 'socialmedia',
 							   ];	
 		
-		$data['uri'] = $_SERVER['REQUEST_URI'];
-		$data['page_uri'] = '/Product/Nutrisi';
-		$data['headernutrisi'] = 'Nutrisi';
+		$data['smooth_page'] = 'sosmed';					
+
+		$data['header_title'] = 'Social Media';
+		
+		$data['sosmed_page'] = 'sosmed';
+		$data['headersosmed'] = 'Social Media';
 		$data['title']="Social Media";
 		$data['img_url'] = base_url();
 		$data['font_header'] = base_url('assets/fonts/Vacaciones-font-ffp-defharo.ttf');
 		
-		$this->load->view('front-end/work/alamat/layouting/header.php', $data);
+		$this->load->view('front-end/work/header.php', $data);
 		$this->load->view('front-end/work/social/index.php', $data);
 		$this->load->view('front-end/chat.php');
 		$this->load->view('front-end/whatsapp.php');
-		$this->load->view('front-end/work/alamat/layouting/footer.php');
+		$this->load->view('front-end/work/footer.php');
 	}
 	
 }

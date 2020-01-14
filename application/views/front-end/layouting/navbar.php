@@ -33,7 +33,7 @@
         <a class="nav-link page-scroll" href="<?=base_url()?>#work">Work</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="<?=base_url()?>#news">News</a>
+        <a class="nav-link page-scroll" href="#service">Service</a>
       </li>
     </ul>
   </div>
