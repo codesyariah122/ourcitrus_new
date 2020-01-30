@@ -46,7 +46,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top - 10
       }, 1250, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -135,4 +135,20 @@ AOS.init({
 
 });
 
+</script>
+
+<script language="javascript">
+$(function() {
+  $('#WAButton').floatingWhatsApp({
+    phone: '6285277778462', //WhatsApp Business phone number International format-
+    //Get it with Toky at https://toky.co/en/features/whatsapp.
+    headerTitle: 'Chat Kami Via Whatsapp', //Popup Title
+    popupMessage: 'Hello, ada yang bisa kami bantu', //Popup Message
+    showPopup: true, //Enables popup display
+    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+    //headerColor: 'crimson', //Custom header color
+    //backgroundColor: 'crimson', //Custom background button color
+    position: "right"
+  });
+});
 </script>

@@ -10,3 +10,7 @@
 [13-Jan-2020 05:41:47 UTC] PHP Warning:  Unterminated comment starting line 16 in /home/ourcitru/public_html/application/controllers/Home.php on line 16
 [13-Jan-2020 14:39:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'Modal.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/views/front-end/main.php on line 2
 [13-Jan-2020 14:39:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'Modal.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/views/front-end/main.php on line 2
+[14-Jan-2020 09:04:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'ReadNews.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/controllers/InfoTerbaru.php on line 6
+[14-Jan-2020 09:04:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'ReadNews.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/controllers/InfoTerbaru.php on line 6
+[14-Jan-2020 09:05:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'ReadNews.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ourcitru/public_html/application/controllers/InfoTerbaru.php on line 2
+[14-Jan-2020 12:17:20 UTC] PHP Warning:  Unterminated comment starting line 52 in /home/ourcitru/public_html/application/controllers/Nexmo.php on line 52

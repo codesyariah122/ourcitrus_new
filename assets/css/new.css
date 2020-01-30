@@ -7,7 +7,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -17,7 +17,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 .tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -31,7 +31,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 		}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -50,34 +50,34 @@
 		background-color: #ffb4a2;
 		margin-top: -1.5em;
 	}
-	
+
 	.legalitas {
 		margin-bottom: 2.5em;
 	}
-	
+
 	.manajemen{
 		margin-bottom: 2em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
 		margin-left: -6.5em; padding-top: 3.5em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -87,7 +87,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 
 @media (min-width: 576px) {
 	/*ieu kanggo desktop jeung tablet landscape*/
@@ -99,7 +99,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -109,7 +109,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -123,7 +123,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 	.tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -142,38 +142,38 @@
 		background-color: #ffb4a2;
 		margin-top: -5em;
 	}
-	
+
 	.legalitas {
-		margin-bottom: 4em;
+		margin-bottom: 6em;
 	}
-	
+
 	.manajemen{
-		margin-bottom: 3.5em;
+		margin-bottom: 6em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
-		margin-left: -7.5em; padding-top: 5.5em;
+		margin-left: -7.5em; padding-top: 7em;
 	}
-	
+
 	.kanggo-card{
 		margin-left: 35em; margin-top: 40em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -195,7 +195,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -205,7 +205,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -219,7 +219,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 	.tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -238,38 +238,38 @@
 		background-color: #ffb4a2;
 		margin-top: -5em;
 	}
-	
+
 	.legalitas {
 		margin-bottom: 7.5em;
 	}
-	
+
 	.manajemen{
 		margin-bottom: 7.5em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
 		margin-left: -11em; padding-top: 9.5em;
 	}
-	
+
 	.kanggo-card{
 		margin-left: 35em; margin-top: 40em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -283,7 +283,7 @@
 
 
 @media (min-width: 992px) and (max-width: 1099.98px) {
-	
+
 	/*ieu kanggo desktop jeung tablet landscape*/
 	.navbar-brand{
 	font-size:45px;
@@ -293,7 +293,7 @@
 	font-weight: bold;
 	font-size: 18px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -303,7 +303,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -317,7 +317,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 	.tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -336,38 +336,38 @@
 		background-color: #ffb4a2;
 		margin-top: -5em;
 	}
-	
+
 	.legalitas {
 		margin-bottom: 10em;
 	}
-	
+
 	.manajemen{
 		margin-bottom: 11em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
 		margin-left: -12em; padding-top: 12em;
 	}
-	
+
 	.kanggo-card{
 		margin-left: 35em; margin-top: 40em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -377,10 +377,10 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 /*ieu kanggo desktop jeung tablet landscape*/
 
 .navbar-brand{
@@ -391,7 +391,7 @@
 	font-weight: bold;
 	font-size: 25px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -401,7 +401,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -415,7 +415,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 	.tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -434,38 +434,38 @@
 		background-color: #ffb4a2;
 		margin-top: -5em;
 	}
-	
+
 	.legalitas {
 		margin-bottom: 21.5em;
 	}
-	
+
 	.manajemen{
 		margin-bottom: 20.7em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
 		margin-left: -35em; padding-top: 23em;
 	}
-	
+
 	.kanggo-card{
 		margin-left: 35em; margin-top: 40em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -482,7 +482,7 @@
 /*panutup desktop*/
 
 
-@media (min-width: 1200px) and (max-width: 1366px) { 
+@media (min-width: 1200px) and (max-width: 1366px) {
 /*ieu kanggo desktop jeung tablet landscape*/
 
 .navbar-brand{
@@ -493,7 +493,7 @@
 	font-weight: bold;
 	font-size: 25px;
 	}
-	
+
 	.nav-link:hover::after{
 		content: '';
 		display: block;
@@ -503,7 +503,7 @@
 		padding-bottom: 5px;
 		margin-bottom: -8px;
 	}
-	
+
 	.after-image, .btn-hover{
 		margin-top: -0.7em;
 		text-align:center;
@@ -517,7 +517,7 @@
 		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
 	}
-	
+
 	.tombol {
 		font-family: 'Vacaciones', serif;
 		text-transform: uppercase;
@@ -536,38 +536,139 @@
 		background-color: #ffb4a2;
 		margin-top: -5em;
 	}
-	
+
 	.legalitas {
 		margin-bottom: 15em;
 	}
-	
+
 	.manajemen{
 		margin-bottom: 14.5em;
 	}
-	
-	
+
+
 	.kanggo-mobile{
 		margin-left: -35em; padding-top: 16em;
 	}
-	
+
 	.kanggo-card{
 		margin-left: 35em; margin-top: 40em;
 	}
-	
+
 	.a{
 		margin-right: -4em;
 	}
-	
+
 /*end support system*/
-	
+
 	.header-subscribe{
 		font-family: 'Kaushan Script';
 	}
-	
+
 	.sacramento {
 		font-family: 'Sacramento', cursive;
 	}
-	
+
+	.footer-plus{
+		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
+		background: -webkit-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* opera 11.10+ */
+		background: -ms-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ie10+ */
+		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
+	}
+	.footer{
+		color:#ffffff;
+	}
+}
+/*panutup desktop*/
+
+@media (min-width: 1440px) {
+/*ieu kanggo desktop jeung tablet landscape*/
+
+.navbar-brand{
+	font-size:45px;
+}
+	.nav-link {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 25px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 2px dashed salmon;
+		width: 70%;
+		margin:auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.after-image, .btn-hover{
+		margin-top: -0.7em;
+		text-align:center;
+		font-family: 'Vacaciones';
+		color: #fff;
+		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
+		background: -webkit-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* opera 11.10+ */
+		background: -ms-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ie10+ */
+		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
+	}
+
+	.tombol {
+		font-family: 'Vacaciones', serif;
+		text-transform: uppercase;
+		border-radius: 40px;
+		color: #fff;
+		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
+		background: -webkit-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* opera 11.10+ */
+		background: -ms-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ie10+ */
+		background: linear-gradient(268deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* w3c */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd526f', endColorstr='#fb826d',GradientType=1 ); /* ie6-9 */
+	}
+/*support system*/
+	.support-system{
+		background-color: #ffb4a2;
+		margin-top: -5em;
+	}
+
+	.legalitas {
+		margin-bottom: 21.5em;
+	}
+
+	.manajemen{
+		margin-bottom: 21em;
+	}
+
+
+	.kanggo-mobile{
+		margin-left: -35em; padding-top: 23em;
+	}
+
+	.kanggo-card{
+		margin-left: 35em; margin-top: 40em;
+	}
+
+	.a{
+		margin-right: -4em;
+	}
+
+/*end support system*/
+
+	.header-subscribe{
+		font-family: 'Kaushan Script';
+	}
+
+	.sacramento {
+		font-family: 'Sacramento', cursive;
+	}
+
 	.footer-plus{
 		background: -moz-linear-gradient(182deg, rgba(251,130,109,1) 0%, rgba(251,117,109,1) 16%, rgba(252,108,110,1) 39%, rgba(253,82,111,1) 71%, rgba(253,82,111,1) 100%); /* ff3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,82,111,1)), color-stop(29%, rgba(253,82,111,1)), color-stop(61%, rgba(252,108,110,1)), color-stop(84%, rgba(251,117,109,1)), color-stop(100%, rgba(251,130,109,1))); /* safari4+,chrome */
@@ -692,7 +793,7 @@ transition-delay:.2s;
 	border: 2px solid #fff;
 	font-size:20px;
 	text-transform: uppercase;
-	border-radius: 0px;	
+	border-radius: 0px;
 }
 .btn-primary:hover {
 	background-color:transparent;
@@ -726,7 +827,7 @@ transition-delay:.2s;
 	left: 5%;
 	position: absolute;
 	transition:.6s;
-	
+
 }
 .portfolio_images_overlay h6{
 	text-transform: uppercase;

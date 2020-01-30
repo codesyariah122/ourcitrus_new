@@ -1,7 +1,7 @@
 
 <section class="container-fluid" id="<?=$kosmetik_page?>">
 <div class="row">
-
+<?php //echo $_SERVER['REQUEST_URI'];?>
 <?php for($i=0; $i<=count($produk_kosmetik)-1; $i++): ?>
 
 <div class="col-lg-4 pr-0 pl-0">
@@ -13,7 +13,7 @@
 				<a class="btn btn-primary text-white" data-toggle="modal" data-target=".bd-<?=$modal_kosmetik[$i]?>-modal-lg">Click here</a>
 			</div>
 		</div>
-		
+
 </div>
 
 <?php endfor;?>

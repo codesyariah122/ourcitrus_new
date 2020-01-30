@@ -1,14 +1,14 @@
-<?php 
+<?php
 
 class HallOfFame extends CI_Controller {
 
-	
+
 
 	public function index()
 
 	{
 
-		
+
 
 				/* assets untuk header data */
 
@@ -50,11 +50,11 @@ class HallOfFame extends CI_Controller {
 
 								'17' => 'Slide18'
 
-							];	
-		$data['smooth_page'] = 'achiever';					
+							];
+		$data['smooth_page'] = 'achiever';
 
 		$data['header_title'] = 'Hall Of Fame';
-		
+
 		$data['halloffame_page'] = 'halloffame';
 
 		$data['title']="Achiever";
@@ -63,13 +63,13 @@ class HallOfFame extends CI_Controller {
 
 		$data['font_header'] = base_url('assets/fonts/Vacaciones-font-ffp-defharo.ttf');
 
-		
+
 
 		$this->load->view('front-end/work/header.php', $data);
 
 		$this->load->view('front-end/work/achiever/index.php', $data);
-
 		$this->load->view('front-end/chat.php');
+		$this->load->view('front-end/chat2.php');
 
 		$this->load->view('front-end/whatsapp.php');
 
@@ -77,6 +77,6 @@ class HallOfFame extends CI_Controller {
 
 	}
 
-	
+
 
 }

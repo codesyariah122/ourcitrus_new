@@ -20,7 +20,7 @@
         <a class="nav-link page-scroll" href="<?=base_url()?>#home">Home<span class="sr-only" target="_blank">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="<?=base_url()?>#office" target="_blank">Office</a>
+        <a class="nav-link page-scroll" href="<?=base_url()?>#office">Office</a>
       </li>
     </ul>
   </div>

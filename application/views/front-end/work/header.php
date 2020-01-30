@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- 
+<!--
 update 10:56 PM
 tgl : 12/23/2019 / hari senin
 
-kit untuk website : 
-kit untuk slide pakai hammer.js 
+kit untuk website :
+kit untuk slide pakai hammer.js
 kit untuk translansi conten di elemen pakai anchor ui kit dari bootstrap pakai component = data-aos
 
 untuk framework pakai bootstrap versi 4.1
@@ -19,7 +19,7 @@ untuk framework pakai bootstrap versi 4.1
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <title><?=$title?></title>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
- 
+
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,600,700" rel="stylesheet">
@@ -30,6 +30,7 @@ untuk framework pakai bootstrap versi 4.1
 <link href="<?=base_url()?>assets/css/vendor/aos.css" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/hover_img/component.css" />
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Julius+Sans+One|Montserrat+Alternates|Neucha|Poiret+One&display=swap" rel="stylesheet">
+
 <?php $this->view('front-end/layouting/style.php');?>
 
 <style type="text/css">
@@ -57,7 +58,7 @@ html {
 	.produk-slogan{
 		font-family: 'Neucha', cursive;
 	}
-	
+
 	.jumbotron{
 		background-attachment: fixed;
 		background-size:cover;
@@ -165,22 +166,17 @@ a.btn-card {
     color: #fff;
 }
 
-	
+
 </style>
 
 </head>
-    
-<body> 
+
+<body>
 
 <? $this->view('front-end/work/navbar.php'); ?>
 
 <? $this->view('front-end/work/jumbotron.php');?>
 
+<?php $this->view('front-end/add_to_any.php');?>
+
 <div class="parallax">
-
-
-
-
-
-
-
